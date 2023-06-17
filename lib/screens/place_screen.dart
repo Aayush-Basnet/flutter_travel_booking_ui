@@ -89,7 +89,7 @@ class _PlaceScreenState extends State<PlaceScreen> {
                                   fontSize: 18, fontWeight: FontWeight.w600),
                             ),
                             Text(
-                              'Duration: 6 hours',
+                              'Duration: ${widget.place.time} hours',
                               style: TextStyle(fontSize: 16),
                             )
                           ],
